@@ -1,0 +1,391 @@
+@charset "YTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+body {
+    color: #fff;
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #fefefe;
+}
+img {
+    max-width: 100%;
+}
+li {
+    list-style: none;
+}
+
+.key-visual {
+    background-image: url(img/S__5758980.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#header h1 {
+    font-size: 40px;
+    font-family: 'Jost', sans-serif;
+    text-shadow: 
+        1px 1px 10px #000,-1px -1px 10px #000,
+        -1px 1px 10px #000,1px -1px 10px #000,
+        1px 0px 10px #000,0px -0px 10px #000,
+        0px 1px 10px #000,0px -1px 10px #000;
+}
+#header .navi {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 
+        1px 1px 10px #000,-1px -1px 10px #000,
+        -1px 1px 10px #000,1px -1px 10px #000,
+        1px 0px 10px #000,0px -0px 10px #000,
+        0px 1px 10px #000,0px -1px 10px #000;
+}
+#header .navi ul {
+    display: flex;
+}
+#header .navi li {
+    margin-left: 80px;
+}
+#header .navi .border {
+    border-bottom: 3px solid #3F5728;
+}
+#header .navi li a:hover {
+    border-bottom: 3px solid #3F5728;
+}
+
+#header .navi li:first-child{
+    margin-left: 0;
+}
+#header .header-right p img {
+    width: 40px;
+    margin-left: 290px;
+}
+
+
+.text-box {
+    text-align: center;
+    margin-top: 180px;
+}
+.text-box h2 {
+    font-family: 'Yuji Syuku', serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-shadow: 
+    1px 1px 10px #000,-1px -1px 10px #000,
+    -1px 1px 10px #000,1px -1px 10px #000,
+    1px 0px 10px #000,0px -0px 10px #000,
+    0px 1px 10px #000,0px -1px 10px #000;
+}
+.text-box p {
+    font-family: 'Yuji Syuku', serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-shadow: 
+    1px 1px 10px #000,-1px -1px 10px #000,
+    -1px 1px 10px #000,1px -1px 10px #000,
+    1px 0px 10px #000,0px -0px 10px #000,
+    0px 1px 10px #000,0px -1px 10px #000;
+}
+
+main {
+    margin-top: 200px;
+    padding: 0 15px;
+}
+main ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main ul li {
+    width: 50%;
+    margin-bottom: 300px;
+}
+main ul li img {
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+    max-width: 600px;
+}
+main li .li-text h3 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+}
+main li .li-text p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+main li .box {
+    text-align: center;
+}
+main li .box h4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+main li .box .pay {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+main li .box .li-btn {
+    display: inline-block;
+    background-color: #47622d;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 45px;
+    transition: background-color 0.5s;
+}
+main li .box .li-btn:hover {
+    background-color: #3F5728;
+}
+/*main ul li img {
+    margin-left: 40%;
+    transform: translateX(-40%);
+}*/
+ul {
+    color: #000;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    margin-top: 200px;
+}
+footer .footer-left {
+    padding: 30px 0 10px 100px;
+    text-align: center;
+}
+footer h2 {
+    font-size: 40px;
+    font-family: 'Jost', sans-serif;
+}
+footer img {
+    width: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+footer .navi {
+    padding: 60px 100px 10px 0;
+    font-size: 20px;
+}
+footer .navi li {
+    margin-bottom: 40px;
+}
+footer li a {
+    font-weight: bold;
+    transition: color 0.3s;
+}
+footer .navi a:hover {
+    color: #696969;
+}
+
+
+@media screen and (max-width: 1100px) {
+    #header {
+        flex-direction: column;
+        padding: 15px 0 0 0;
+    }
+    #header h1 {
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    #header .header-right {
+        margin-top: 20px; 
+    }
+    #header .header-right p img {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 800px) {
+    .text-box {
+        margin-top: 100px;
+    }
+    main {
+        padding: 0 5px;
+    }
+    main ul li {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 430px) {
+
+    .key-visual {
+        height: 50vh;
+    }
+    .header-right p {
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        right: 0;
+    }
+    #header {
+        flex-direction: column;
+        padding: 15px 0 0 0;
+    }
+    #header h1 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    #header ul li a {
+        font-size: 18px;
+    }
+    
+    main ul li img {
+        max-width: 400px;
+    }
+    .text-box {
+        margin: 60px 0 0 15px;
+    }
+    .text-box h2 {
+        font-size: 35px;
+    }
+    .text-box p {
+        font-size: 18px;
+        letter-spacing: 10px;
+        margin-top: 10px;
+    }
+
+    
+
+    footer {
+        margin: 100px auto 0 auto;   
+    }
+    footer .footer-left {
+        text-align: center;
+        padding: 70px 0 0 30px;
+    }
+    footer .footer-left h2 {
+        font-size: 20px;
+    }
+    footer .footer-left img {
+        width: 40px;
+        margin: 20px 0;
+    }
+    footer .navi {
+        padding: 16px 30px 0 0;
+        text-align: center;
+    }
+    footer .navi ul li {
+        margin: 20px 20px 40px 20px;
+        flex-direction: column;
+    }
+}
